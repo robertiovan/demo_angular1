@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular1 demo</title>
+    <meta charset="utf-8" />
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('app').then(function () {
+            angular.bootstrap(document.getElementsByTagName('body')[0], ["appTest"]);
+        });
+    </script>
+</head>
+<body>
+
+<nav>
+    <a ui-sref="state1">State 1</a>
+    <a ui-sref="state2">State 2</a>
+</nav>
+</br>
+<div ui-view></div>
+
+</body>
+</html>

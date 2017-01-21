@@ -1,0 +1,31 @@
+{
+  "name": "es6module",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "jspm": {
+    "dependencies": {
+      "angular": "github:angular/bower-angular@1.5",
+      "angular-material": "github:angular/bower-material@^1.0.8",
+      "angular-mocks": "npm:angular-mocks@^1.5.5",
+      "angular-ui-router": "npm:angular-ui-router@^0.3.0",
+      "d3": "npm:d3@^3.5.17",
+      "lodash": "npm:lodash@^4.5.1"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@2.1.5"
+    }
+  },
+  "devDependencies": {
+    "@types/angular": "^1.6.2",
+    "@types/angular-material": "^1.1.44",
+    "@types/angular-ui-router": "^1.1.36",
+    "@types/lodash": "^4.14.50",
+    "jspm": "^0.16.48"
+  }
+}
